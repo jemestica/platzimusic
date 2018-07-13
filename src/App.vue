@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="https://jemestica.github.io/platzimusic/dist/logo.png">
     <h1> PlatziMusic</h1>
     <select v-model="selectedCountry">
       <country v-for="country in countries" :country=country :key="country.alpha2Code">{{ country.name }}</country>
